@@ -11,7 +11,7 @@ export default function Home() {
         {/* Grunnleggende metadata */}
         <title>Din Nettside – Hjem</title>
         <meta name="description" content="Velkommen til gode samtaler. Her finner du informasjon om våre tjenester, bakgrunn og kontaktinformasjon." />
-        <meta name="keywords" content="Next.js, webutvikling, tjenester, om oss, kontakt, SEO, gode samtaler" />
+        <meta name="keywords" content="tjenester, om oss, kontakt, SEO, gode samtaler" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://din-nettside.no/" />
 
