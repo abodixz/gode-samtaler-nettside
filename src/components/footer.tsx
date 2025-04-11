@@ -1,8 +1,9 @@
-import Link from "next/link"
-import { Facebook, Instagram, Mail, Phone, MapPin, Heart } from "lucide-react"
+import React from "react";
+import { Facebook, Instagram, Mail, Phone, MapPin, Heart, Sparkles, Star } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="relative bg-gradient-to-br from-gray-900 to-gray-800 text-white overflow-hidden">
@@ -12,9 +13,9 @@ export default function Footer() {
       <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-[#6d816a]/5 rounded-full blur-3xl"></div>
 
       <div className="container mx-auto px-4 py-16 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 lg:gap-16">
           {/* Logo and description */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-5">
             <h2 className="text-2xl font-bold mb-4 text-white">
               <span className="relative">
                 Gode samtaler
@@ -54,88 +55,45 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick links */}
-          <div className="md:col-span-2">
-            <h3 className="text-lg font-semibold mb-4 text-white">Navigasjon</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link
-                  href="/"
-                  className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center"
-                >
-                  <span className="w-1.5 h-1.5 bg-[#6d816a] rounded-full mr-2"></span>
-                  Hjem
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#om-oss"
-                  className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center"
-                >
-                  <span className="w-1.5 h-1.5 bg-[#6d816a] rounded-full mr-2"></span>
-                  Om
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#tjenester"
-                  className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center"
-                >
-                  <span className="w-1.5 h-1.5 bg-[#6d816a] rounded-full mr-2"></span>
-                  Tjenester
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#kontakt"
-                  className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center"
-                >
-                  <span className="w-1.5 h-1.5 bg-[#6d816a] rounded-full mr-2"></span>
-                  Kontakt
-                </Link>
-              </li>
-            </ul>
-          </div>
-
           {/* Services */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-3">
             <h3 className="text-lg font-semibold mb-4 text-white">Tjenester</h3>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               <li>
-                <Link
+                <a
                   href="#tjenester"
                   className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center"
                 >
                   <span className="w-1.5 h-1.5 bg-[#6d816a] rounded-full mr-2"></span>
                   Hjemmekontor
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="#tjenester"
                   className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center"
                 >
                   <span className="w-1.5 h-1.5 bg-[#6d816a] rounded-full mr-2"></span>
                   Walk and Talk
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="#tjenester"
                   className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center"
                 >
                   <span className="w-1.5 h-1.5 bg-[#6d816a] rounded-full mr-2"></span>
                   Online-samtale
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="#tjenester"
                   className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center"
                 >
                   <span className="w-1.5 h-1.5 bg-[#6d816a] rounded-full mr-2"></span>
                   Healing
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -180,25 +138,44 @@ export default function Footer() {
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
               &copy; {currentYear} Gode samtaler. Alle rettigheter reservert. Org.nr: 934 750 551
             </p>
-            <div className="flex items-center text-gray-400 text-sm">
-              <Link href="/personvern" className="hover:text-white transition-colors mr-6">
-                Personvernerklæring
-              </Link>
-              <Link href="/vilkar" className="hover:text-white transition-colors">
-                Vilkår og betingelser
-              </Link>
-            </div>
           </div>
 
-          <div className="mt-6 text-center text-gray-500 text-xs flex items-center justify-center">
-            <span>Laget med</span>
-            <Heart className="h-3 w-3 mx-1 text-[#6d816a]" />
-            <a href="https://egera.no/">
-            <span>av Egera.no</span>
+          <div className="mt-10 flex items-center justify-center">
+            <a 
+              href="https://egera.no/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <div className="bg-gradient-to-r from-[#6d816a]/20 to-[#6d816a]/50 backdrop-blur-sm p-6 rounded-2xl shadow-2xl border border-white/10 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
+                <div className="flex items-center justify-center space-x-3">
+                  <span className="text-lg font-medium text-gray-200 group-hover:text-white transition-colors">
+                    Laget med
+                  </span>
+                  <div className="flex items-center">
+                    <Heart 
+                      className="h-6 w-6 text-pink-400 animate-pulse mx-1 group-hover:scale-110 transition-transform" 
+                      fill="#ff70a6" 
+                    />
+                    <Sparkles 
+                      className="h-5 w-5 text-yellow-300 animate-spin-slow opacity-70 group-hover:opacity-100 transition-all" 
+                    />
+                  </div>
+                  <span 
+                    className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 group-hover:from-[#6d816a] group-hover:to-white transition-all duration-300 group-hover:scale-105 underline decoration-[#6d816a] decoration-2 underline-offset-4"
+                  >
+                    av egera.no
+                  </span>
+                  <Star 
+                    className="h-5 w-5 text-yellow-400 ml-2 group-hover:rotate-12 transition-transform" 
+                    fill="#fbbf24" 
+                  />
+                </div>
+              </div>
             </a>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }

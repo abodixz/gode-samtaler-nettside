@@ -50,10 +50,10 @@ export default function Services() {
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                 <div className="flex items-center text-[#6d816a] font-medium group-hover:underline">
-                  <span>Les mer</span>
+                  <a href="#">Bestill veiledning</a>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
-                <div className="text-sm text-gray-500">Fra kr 800,-</div>
+                <div className="text-sm text-gray-500">Fra kr 500,-</div>
               </div>
             </div>
           </div>
@@ -91,10 +91,10 @@ export default function Services() {
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                 <div className="flex items-center text-[#6d816a] font-medium group-hover:underline">
-                  <span>Les mer</span>
+                  <a href="#">Bestill veiledning</a>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
-                <div className="text-sm text-gray-500">Fra kr 800,-</div>
+                <div className="text-sm text-gray-500">Fra kr 500,-</div>
               </div>
             </div>
           </div>
@@ -132,10 +132,10 @@ export default function Services() {
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                 <div className="flex items-center text-[#6d816a] font-medium group-hover:underline">
-                  <span>Les mer</span>
+                  <a href="#">Bestill veiledning</a>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
-                <div className="text-sm text-gray-500">Fra kr 750,-</div>
+                <div className="text-sm text-gray-500">Fra kr 500,-</div>
               </div>
             </div>
           </div>
@@ -173,10 +173,10 @@ export default function Services() {
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                 <div className="flex items-center text-[#6d816a] font-medium group-hover:underline">
-                  <span>Les mer</span>
+                  <a href="#">Bestill veiledning</a>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
-                <div className="text-sm text-gray-500">Fra kr 850,-</div>
+                <div className="text-sm text-gray-500">Fra kr 500,-</div>
               </div>
             </div>
           </div>
