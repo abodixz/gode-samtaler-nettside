@@ -38,7 +38,7 @@ export default function Services() {
 
             <div className="p-6">
               <div className="mb-4 flex items-center">
-                <span className="text-xs uppercase tracking-wider bg-[#6d816a]/10 text-[#6d816a] px-3 py-1 rounded-full font-medium">
+                <span className="text-xs uppercase tracking-wider bg-[#6d816a]/10 text-[#203d37] px-3 py-1 rounded-full font-medium">
                   Personlig møte
                 </span>
                 <span className="ml-auto text-sm text-gray-500">50 minutter</span>
@@ -50,7 +50,7 @@ export default function Services() {
               </p>
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                <div className="flex items-center text-[#6d816a] font-medium group-hover:underline">
+                <div className="flex items-center text-[#203d37] font-medium group-hover:underline">
                   <a href="#">Bestill veiledning</a>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
@@ -79,7 +79,7 @@ export default function Services() {
 
             <div className="p-6">
               <div className="mb-4 flex items-center">
-                <span className="text-xs uppercase tracking-wider bg-[#6d816a]/10 text-[#6d816a] px-3 py-1 rounded-full font-medium">
+                <span className="text-xs uppercase tracking-wider bg-[#203d37]/10 text-[#6d816a] px-3 py-1 rounded-full font-medium">
                   Utendørs
                 </span>
                 <span className="ml-auto text-sm text-gray-500">50 minutter</span>
@@ -91,7 +91,7 @@ export default function Services() {
               </p>
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                <div className="flex items-center text-[#6d816a] font-medium group-hover:underline">
+                <div className="flex items-center text-[#203d37] font-medium group-hover:underline">
                   <a href="#">Bestill veiledning</a>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
@@ -132,7 +132,7 @@ export default function Services() {
               </p>
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                <div className="flex items-center text-[#6d816a] font-medium group-hover:underline">
+                <div className="flex items-center text-[#203d37] font-medium group-hover:underline">
                   <a href="#">Bestill veiledning</a>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
@@ -173,7 +173,7 @@ export default function Services() {
               </p>
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                <div className="flex items-center text-[#6d816a] font-medium group-hover:underline">
+                <div className="flex items-center text-[#203d37] font-medium group-hover:underline">
                   <a href="#">Bestill veiledning</a>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>

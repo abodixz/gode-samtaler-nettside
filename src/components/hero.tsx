@@ -15,14 +15,14 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen pt-30 md:pt-0 xl:pt-0 lg:pt-0 flex items-center overflow-hidden">
       {/* Bakgrunn med parallax-effekt */}
       <div className="absolute inset-0 z-0">
         <div
           className="absolute inset-0 transition-transform duration-500 ease-out"
           style={{ transform: `translateY(${scrollY * 0.15}px)` }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-[#2f4f2f]/90 via-[#375035]/80 to-[#415d43]/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1F3B35] via-[#264C41] to-[#2A554B]"></div>
         <div
           className="absolute inset-0 opacity-10"
           style={{
@@ -89,7 +89,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4 mb-12">
               <a
                 href="#kontakt"
-                className="group bg-white text-[#6d816a] px-8 py-3.5 rounded-full font-medium text-lg hover:bg-opacity-95 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 flex items-center"
+                className="group bg-white text-black px-8 py-3.5 rounded-full font-medium text-lg hover:bg-opacity-95 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 flex items-center"
               >
                 <span>Ta kontakt</span>
                 <ChevronRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
@@ -122,7 +122,7 @@ export default function Hero() {
               <div className="absolute -bottom-6 -right-6 w-full h-[calc(100%-2rem)] md:h-full bg-white/5 backdrop-blur-sm rounded-2xl transform -rotate-3"></div>
               {/* Kortinnhold */}
               <div className="relative bg-white/95 backdrop-blur-md rounded-2xl p-6 md:p-8 shadow-xl">
-                <div className="text-[#6d816a] text-lg font-medium mb-5">Gode samtaler tilbyr</div>
+                <div className="text-[#203d37] text-lg font-medium mb-5">Gode samtaler tilbyr</div>
 
                 <div className="space-y-4 md:space-y-5">
                   {[
@@ -137,10 +137,10 @@ export default function Hero() {
                   ].map((item, i) => (
                     <div
                       key={i}
-                      className="flex items-start bg-[#6d816a]/5 rounded-xl p-4 transition-transform hover:translate-x-1 duration-300"
+                      className="flex items-start bg-[#203d37]/5 rounded-xl p-4 transition-transform hover:translate-x-1 duration-300"
                     >
                       <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#6d816a]/20 flex items-center justify-center mt-0.5 mr-3">
-                        <span className="w-2 h-2 rounded-full bg-[#6d816a]"></span>
+                        <span className="w-2 h-2 rounded-full bg-[#203d37]"></span>
                       </span>
                       <div>
                         <h3 className="font-medium text-gray-800">{item.title}</h3>
@@ -153,7 +153,7 @@ export default function Hero() {
                 <div className="mt-6 pt-6 border-t border-gray-100">
                   <a
                     href="#om-oss"
-                    className="group flex items-center justify-center w-full bg-[#6d816a]/10 hover:bg-[#6d816a]/20 text-[#6d816a] rounded-xl py-3 transition-colors"
+                    className="group flex items-center justify-center w-full bg-[#6d816a]/10 hover:bg-[#6d816a]/20 text-black rounded-xl py-3 transition-colors"
                   >
                     <span className="font-medium">Les mer om meg</span>
                     <ChevronRight className="ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />

@@ -8,8 +8,8 @@ export default function Contact() {
   return (
     <section id="kontakt" className="py-24 md:py-32 bg-gray-50 relative overflow-hidden">
       {/* Dekorative elementer */}
-      <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-[#6d816a]/5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-[#6d816a]/5 rounded-full blur-3xl"></div>
+      <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-[#203d37]/5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-[#203d37]/5 rounded-full blur-3xl"></div>
 
       {/* Oppdatert container med samme sizing som de andre seksjonene */}
       <div className="container mx-auto px-6 md:px-20 lg:px-26 relative z-10">
@@ -25,7 +25,7 @@ export default function Contact() {
         <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
           <div className="flex flex-col">
             {/* Kontaktinformasjon */}
-            <div className="bg-[#6d816a] text-white p-8 md:p-12">
+            <div className="bg-[#203d37] text-white p-8 md:p-12">
               <h3 className="text-2xl font-semibold mb-8">Kontaktinformasjon</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="flex items-center p-4 bg-white/10 rounded-lg hover:shadow-lg hover:scale-105 transition-transform duration-200">
@@ -83,7 +83,6 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            {/* Eventuelt kan du legge til flere seksjoner nedenfor */}
           </div>
         </div>
       </div>

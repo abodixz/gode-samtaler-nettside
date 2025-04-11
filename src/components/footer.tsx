@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="relative bg-gradient-to-br from-gray-900 to-gray-800 text-white overflow-hidden">
       {/* Decorative elements */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#6d816a]/30 via-[#6d816a] to-[#6d816a]/30"></div>
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#203d37]/30 via-[#203d37] to-[#6d816a]/30"></div>
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-[#6d816a]/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-[#6d816a]/5 rounded-full blur-3xl"></div>
 

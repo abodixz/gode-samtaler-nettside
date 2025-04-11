@@ -37,12 +37,12 @@ export default function About() {
 
               {/* Stats cards */}
               <div className="absolute -bottom-8 -right-8 bg-white rounded-xl shadow-lg p-4 flex flex-col items-center">
-                <span className="text-3xl font-bold text-[#6d816a]">5+</span>
+                <span className="text-3xl font-bold text-[#203d37]">5+</span>
                 <span className="text-sm text-gray-600">Års erfaring</span>
               </div>
 
               <div className="absolute -top-8 -right-8 bg-white rounded-xl shadow-lg p-4 flex flex-col items-center">
-                <span className="text-3xl font-bold text-[#6d816a]">100+</span>
+                <span className="text-3xl font-bold text-[#203d37]">100+</span>
                 <span className="text-sm text-gray-600">Klienter</span>
               </div>
             </div>
@@ -70,8 +70,8 @@ export default function About() {
                   { title: "Trygge rammer", desc: "Skaper et rom hvor du kan være helt deg selv" },
                   { title: "Profesjonell veiledning", desc: "Basert på solid faglig kompetanse" },
                 ].map((item, i) => (
-                  <div key={i} className="bg-[#6d816a]/5 rounded-xl p-4">
-                    <h4 className="font-medium text-[#6d816a] mb-1">{item.title}</h4>
+                  <div key={i} className="bg-[#203d37]/5 rounded-xl p-4">
+                    <h4 className="font-medium text-[#203d37] mb-1">{item.title}</h4>
                     <p className="text-sm text-gray-600">{item.desc}</p>
                   </div>
                 ))}
