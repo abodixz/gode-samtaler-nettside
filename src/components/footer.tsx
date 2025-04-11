@@ -11,7 +11,8 @@ export default function Footer() {
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-[#6d816a]/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-[#6d816a]/5 rounded-full blur-3xl"></div>
 
-      <div className="container mx-auto px-4 py-16 relative z-10">
+      {/* Oppdatert container med samme sizing */}
+      <div className="container mx-auto px-6 md:px-20 lg:px-26 py-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 lg:gap-16">
           {/* Logo and description */}
           <div className="md:col-span-5">

@@ -34,7 +34,8 @@ export default function Header() {
         scrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent py-5"
       )}
     >
-      <div className="container mx-auto px-4">
+      {/* Bruk samme container som i navbaren (f.eks. "container mx-auto px-6 md:px-20 lg:px-26") */}
+      <div className="container mx-auto px-6 md:px-20 lg:px-26">
         <div className="flex items-center justify-between">
           {/* Logo / Tittel */}
           <Link
@@ -53,9 +54,7 @@ export default function Header() {
               <Link
                 key={index}
                 href={item === "Hjem" ? "/" : `#${item.toLowerCase().replace(" ", "-")}`}
-                className={`relative px-4 py-2 transition-colors group ${
-                  scrolled ? "text-black hover:text-[#6d816a]" : "text-white hover:text-[#6d816a]"
-                }`}
+                className={`relative px-4 py-2 transition-colors group ${scrolled ? "text-black hover:text-[#6d816a]" : "text-white hover:text-[#6d816a]"}`}
               >
                 <span>{item}</span>
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#6d816a] transition-all duration-300 group-hover:w-full"></span>
@@ -63,9 +62,7 @@ export default function Header() {
             ))}
             <Link
               href="#kontakt"
-              className={`ml-4 px-6 py-2 rounded-full transition-colors shadow-sm hover:shadow-md ${
-                scrolled ? "bg-black text-white hover:bg-gray-800" : "bg-white text-black hover:bg-gray-200"
-              }`}
+              className={`ml-4 px-6 py-2 rounded-full transition-colors shadow-sm hover:shadow-md ${scrolled ? "bg-black text-white hover:bg-gray-800" : "bg-white text-black hover:bg-gray-200"}`}
             >
               Bestill veiledning
             </Link>
@@ -85,7 +82,8 @@ export default function Header() {
       {/* Mobil Navigation - Fullskjerms Overlay */}
       {isMenuOpen && (
         <div className="md:hidden fixed inset-0 z-50 bg-white overflow-y-auto">
-          <nav className="container mx-auto px-4 py-4">
+          {/* Bruk samme container for å holde bredden konsistent */}
+          <nav className="container mx-auto px-6 md:px-20 lg:px-26 py-4">
             <div className="flex flex-col space-y-3">
               {["Hjem", "Om", "Tjenester", "Kontakt"].map((item, index) => (
                 <Link

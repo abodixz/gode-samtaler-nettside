@@ -7,7 +7,8 @@ export default function About() {
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-[#6d816a]/5 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-[#6d816a]/5 rounded-full blur-3xl"></div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      {/* Bruker samme container-sizing som header: container mx-auto med responsive padding */}
+      <div className="container mx-auto px-6 md:px-20 lg:px-26 relative z-10">
         <div className="max-w-xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 relative inline-block">
             Om Gode samtaler

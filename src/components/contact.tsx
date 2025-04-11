@@ -11,7 +11,8 @@ export default function Contact() {
       <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-[#6d816a]/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-[#6d816a]/5 rounded-full blur-3xl"></div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      {/* Oppdatert container med samme sizing som de andre seksjonene */}
+      <div className="container mx-auto px-6 md:px-20 lg:px-26 relative z-10">
         <div className="max-w-xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 relative inline-block">
             Kontakt
