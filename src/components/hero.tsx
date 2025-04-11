@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import Image from "next/image"
 import { ChevronRight, Sparkles, Heart, Shield } from "lucide-react"
 
 export default function Hero() {
