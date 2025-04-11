@@ -4,7 +4,8 @@ import About from "@/components/about"
 import Services from "@/components/services"
 import Contact from "@/components/contact"
 
-export default function Home() {
+export default function Home() {  
+  
   return (
     <>
       <Head>
