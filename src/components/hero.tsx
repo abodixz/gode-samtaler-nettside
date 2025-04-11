@@ -23,9 +23,9 @@ export default function Hero() {
           className="absolute inset-0 transition-transform duration-500 ease-out"
           style={{ transform: `translateY(${scrollY * 0.15}px)` }}
         >
-          <Image src="/images/hero-bg.png" alt="Peaceful nature background" fill className="object-cover" priority />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-[#6d816a]/90 via-[#6d816a]/80 to-[#6d816a]/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#2f4f2f]/90 via-[#375035]/80 to-[#415d43]/70"></div>
+
         <div
           className="absolute inset-0 opacity-10"
           style={{
