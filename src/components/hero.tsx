@@ -15,7 +15,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen pt-30 md:pt-0 xl:pt-0 lg:pt-0 flex items-center overflow-hidden">
+    <section className="relative min-h-screen pt-30 flex items-center overflow-hidden">
       {/* Bakgrunn med parallax-effekt */}
       <div className="absolute inset-0 z-0">
         <div
@@ -152,7 +152,7 @@ export default function Hero() {
 
                 <div className="mt-6 pt-6 border-t border-gray-100">
                   <a
-                    href="#om-oss"
+                    href="#om-meg"
                     className="group flex items-center justify-center w-full bg-[#6d816a]/10 hover:bg-[#6d816a]/20 text-black rounded-xl py-3 transition-colors"
                   >
                     <span className="font-medium">Les mer om meg</span>
