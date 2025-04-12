@@ -23,8 +23,7 @@ export default function Footer() {
               </span>
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Profesjonell samtaleterapi og veiledning som hjelper deg å navigere livets utfordringer med ro og innsikt.
-              Vi tilbyr et trygt rom for personlig vekst og utvikling.
+            Ser frem til å møte deg, høre din historie, og være med på å skape de positive endringene du ønsker i livet ditt.
             </p>
             <div className="flex space-x-3">
               <a
@@ -134,13 +133,8 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-700/50">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              &copy; {currentYear} Gode samtaler. Alle rettigheter reservert. Org.nr: 934 750 551
-            </p>
-          </div>
 
-          <div className="mt-10 flex items-center justify-center">
+          <div className="mt-10">
             <a 
               href="https://egera.no/" 
               target="_blank"
@@ -173,6 +167,11 @@ export default function Footer() {
                 </div>
               </div>
             </a>
+          </div>
+          <div className="flex flex-col md:flex-row justify-between items-center pt-20">
+            <p className="text-gray-400 text-sm mb-4 md:mb-0">
+              &copy; {currentYear} Gode samtaler. Alle rettigheter reservert. Org.nr: 934 750 551
+            </p>
           </div>
         </div>
       </div>
