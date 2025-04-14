@@ -1,14 +1,14 @@
 
 import React from 'react';
-import { 
-  BookText, 
-  MessageSquareHeart, 
-  HandHeart, 
-  FlowerIcon, 
-  GraduationCap, 
-  CheckCircle, 
-  Target, 
-  Compass 
+import {
+  BookText,
+  MessageSquareHeart,
+  HandHeart,
+  FlowerIcon,
+  GraduationCap,
+  CheckCircle,
+  Target,
+  Compass
 } from "lucide-react";
 
 const Index = () => {
@@ -42,7 +42,7 @@ const Index = () => {
                 <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-xl">
                   <div className="w-full h-full bg-gradient-to-br from-slate-300 to-slate-200 flex items-center justify-center">
                     <img className='w-full' src={"/anne-bilde.jpeg"} />
-                    
+
                   </div>
                 </div>
 
@@ -69,7 +69,7 @@ const Index = () => {
                   </div>
                   <p className="text-gray-600">Profesjonell støtte for personlig utvikling og livskvalitet</p>
                 </div>
-                
+
                 <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-[#203d37] hover:shadow-lg transition-shadow">
                   <div className="flex items-center gap-4 mb-3">
                     <div className="p-3 bg-[#203d37]/10 rounded-full">
@@ -89,7 +89,7 @@ const Index = () => {
                 <p className="mb-6">
                   Mitt navn er Anna Kalinowska, og jeg tilbyr veiledningssamtaler og healing for deg som ønsker støtte i livet, enten du står overfor utfordringer på jobb, i personlige forhold, eller rett og slett søker mer balanse og energi i hverdagen.
                 </p>
-                
+
                 <div className="bg-white rounded-xl shadow-sm p-6 border border-slate-100 mb-8">
                   <h4 className="flex items-center text-xl font-medium mb-4 text-[#203d37]">
                     <GraduationCap className="mr-2 h-6 w-6" />
@@ -99,12 +99,12 @@ const Index = () => {
                     Min bakgrunn er tverrfaglig og gir meg et grunnlag for å hjelpe deg. Jeg har en mastergrad i ledelse og organisasjonspsykologi fra Warszawa (Polen), og en fagskoleutdanning i Folkehelse og Livsmestring fra Kristiania.
                   </p>
                 </div>
-                
+
                 <h4 className="flex items-center text-xl font-medium mb-4 text-[#203d37]">
                   <BookText className="mr-2 h-6 w-6" />
                   Utdanning og Kurs
                 </h4>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                   {[
                     "Interpersonal Communication",
@@ -121,16 +121,16 @@ const Index = () => {
                     </div>
                   ))}
                 </div>
-                
+
                 <p className="mb-8">
                   Med min brede faglige bakgrunn og erfaring som veileder fra både NAV og tiltaksbransjen, har jeg jobbet med mennesker som trenger støtte innen karriereutvikling, personlig veiledning og hverdagskompetanse.
                 </p>
-                
+
                 <h4 className="flex items-center text-xl font-medium mb-4 text-[#203d37]">
                   <HandHeart className="mr-2 h-6 w-6" />
                   Min Tilnærming
                 </h4>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
                   <div className="bg-white p-5 rounded-xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
                     <div className="p-3 bg-[#6d816a]/10 rounded-full mb-3">
@@ -139,7 +139,7 @@ const Index = () => {
                     <h5 className="font-medium mb-2">Helhetlig</h5>
                     <p className="text-sm text-gray-600">Jeg ser hele mennesket og alle aspekter av ditt liv</p>
                   </div>
-                  
+
                   <div className="bg-white p-5 rounded-xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
                     <div className="p-3 bg-[#6d816a]/10 rounded-full mb-3">
                       <HandHeart className="h-6 w-6 text-[#203d37]" />
@@ -147,7 +147,7 @@ const Index = () => {
                     <h5 className="font-medium mb-2">Empatisk</h5>
                     <p className="text-sm text-gray-600">Jeg møter deg med forståelse og ekte tilstedeværelse</p>
                   </div>
-                  
+
                   <div className="bg-white p-5 rounded-xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
                     <div className="p-3 bg-[#6d816a]/10 rounded-full mb-3">
                       <Target className="h-6 w-6 text-[#203d37]" />
@@ -156,7 +156,7 @@ const Index = () => {
                     <p className="text-sm text-gray-600">Jeg hjelper deg å oppnå konkrete og positive endringer</p>
                   </div>
                 </div>
-                
+
                 <div className="bg-[#203d37]/5 p-6 rounded-xl italic">
                   <p>
                     Jeg ser på hver klient som et unikt individ, og min tilnærming er helhetlig, empatisk og resultatorientert. Jeg tror at vi alle har kraften til å skape endring, og mitt ønske er å være en trygg og støttende samtalepartner for deg, enten du trenger hjelp med å forstå dine utfordringer, oppnå mål, eller bare vil finne mer ro i hverdagen.

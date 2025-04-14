@@ -3,7 +3,7 @@ import { Home, Users, Video, ArrowRight, Sparkles } from "lucide-react"
 
 export default function Services() {
   return (
-    <section id="tjenester" className="py-24 md:py-32 bg-gray-50 mx-auto md:px-20 lg:px-26">
+    <section id="tjenester" className="py-24 md:py-32 bg-gray-50 mx-auto">
       {/* Bruk samme container på tvers av seksjoner */}
       <div className="container mx-auto px-6 md:px-20 lg:px-26">
         <div className="max-w-xl mx-auto text-center mb-16">

@@ -24,7 +24,7 @@ export default function Hero() {
         ></div>
         <div className="absolute inset-0 bg-gradient-to-r from-[#1F3B35] via-[#264C41] to-[#2A554B]"></div>
         <div
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0 opacity-10 pointer-events-none"
           style={{
             backgroundImage:
               "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fillRule='evenodd'%3E%3Cg fill='%23ffffff' fillOpacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
@@ -33,7 +33,7 @@ export default function Hero() {
         ></div>
       </div>
 
-      {/* Flytende dekorative elementer */}
+      {/* Flytende dekorative elementer - vises kun på store skjermer */}
       <div
         className="absolute top-1/4 right-[10%] w-20 h-20 bg-white/10 backdrop-blur-md rounded-full transform rotate-12 hidden md:block"
         style={{
@@ -50,7 +50,6 @@ export default function Hero() {
       ></div>
 
       {/* Innhold */}
-      {/* Oppdatert container med samme sizing som header */}
       <div className="container mx-auto px-6 md:px-20 lg:px-26 relative z-10">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
           <div className="md:w-3/5 text-white">
@@ -117,9 +116,9 @@ export default function Hero() {
 
           <div className="md:w-2/5 mt-10 md:mt-0 w-full max-w-md mx-auto">
             <div className="relative pb-8 md:pb-0">
-              {/* Dekorative elementer */}
-              <div className="absolute -top-6 -left-6 w-full h-[calc(100%-2rem)] md:h-full bg-white/10 backdrop-blur-sm rounded-2xl transform rotate-3"></div>
-              <div className="absolute -bottom-6 -right-6 w-full h-[calc(100%-2rem)] md:h-full bg-white/5 backdrop-blur-sm rounded-2xl transform -rotate-3"></div>
+              {/* Dekorative elementer over kortinnholdet – legg til pointer-events-none slik at de ikke fanger trykk */}
+              <div className="absolute -top-6 -left-6 w-full h-[calc(100%-2rem)] md:h-full bg-white/10 backdrop-blur-sm rounded-2xl transform rotate-3 pointer-events-none"></div>
+              <div className="absolute -bottom-6 -right-6 w-full h-[calc(100%-2rem)] md:h-full bg-white/5 backdrop-blur-sm rounded-2xl transform -rotate-3 pointer-events-none"></div>
               {/* Kortinnhold */}
               <div className="relative bg-white/95 backdrop-blur-md rounded-2xl p-6 md:p-8 shadow-xl">
                 <div className="text-[#203d37] text-lg font-medium mb-5">Gode samtaler tilbyr</div>
@@ -165,10 +164,10 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Dekorative elementer */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent z-10"></div>
-      <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-[#6d816a]/20 rounded-full blur-3xl"></div>
-      <div className="absolute -top-20 -left-20 w-60 h-60 bg-[#6d816a]/10 rounded-full blur-3xl"></div>
+      {/* Dekorative elementer i bunnen – sørg for at de ikke fanger trykk */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none"></div>
+      <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-[#6d816a]/20 rounded-full blur-3xl pointer-events-none"></div>
+      <div className="absolute -top-20 -left-20 w-60 h-60 bg-[#6d816a]/10 rounded-full blur-3xl pointer-events-none"></div>
 
       <style jsx>{`
         @keyframes float {

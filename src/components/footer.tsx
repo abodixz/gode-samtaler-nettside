@@ -23,7 +23,7 @@ export default function Footer() {
               </span>
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-            Ser frem til å møte deg, høre din historie, og være med på å skape de positive endringene du ønsker i livet ditt.
+              Ser frem til å møte deg, høre din historie, og være med på å skape de positive endringene du ønsker i livet ditt.
             </p>
             <div className="flex space-x-3">
               <a
@@ -135,8 +135,8 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-700/50">
 
           <div className="mt-10">
-            <a 
-              href="https://egera.no/" 
+            <a
+              href="https://egera.no/"
               target="_blank"
               rel="noopener noreferrer"
               className="group"
@@ -147,23 +147,16 @@ export default function Footer() {
                     Laget med
                   </span>
                   <div className="flex items-center">
-                    <Heart 
-                      className="h-6 w-6 text-pink-400 animate-pulse mx-1 group-hover:scale-110 transition-transform" 
-                      fill="#ff70a6" 
-                    />
-                    <Sparkles 
-                      className="h-5 w-5 text-yellow-300 animate-spin-slow opacity-70 group-hover:opacity-100 transition-all" 
+                    <Heart
+                      className="h-6 w-6 text-pink-400 animate-pulse mx-1 group-hover:scale-110 transition-transform"
+                      fill="#ff70a6"
                     />
                   </div>
-                  <span 
+                  <span
                     className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 group-hover:from-[#6d816a] group-hover:to-white transition-all duration-300 group-hover:scale-105 underline decoration-[#6d816a] decoration-2 underline-offset-4"
                   >
                     av egera.no
                   </span>
-                  <Star 
-                    className="h-5 w-5 text-yellow-400 ml-2 group-hover:rotate-12 transition-transform" 
-                    fill="#fbbf24" 
-                  />
                 </div>
               </div>
             </a>
