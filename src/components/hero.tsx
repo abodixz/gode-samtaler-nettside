@@ -82,7 +82,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-              Profesjonell samtaleterapi som hjelper deg å navigere livets utfordringer med ro og innsikt
+              Helhetlig, empatisk og resultatorientert samtale som hjelper deg å navigere livets utfordringer med ro og innsikt
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12">

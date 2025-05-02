@@ -51,11 +51,6 @@ const Index = () => {
                   <span className="text-3xl font-bold text-[#203d37]">5+</span>
                   <span className="text-sm text-gray-600">Års erfaring</span>
                 </div>
-
-                <div className="absolute -top-8 -right-8 bg-white rounded-xl shadow-lg p-4 flex flex-col items-center">
-                  <span className="text-3xl font-bold text-[#203d37]">100+</span>
-                  <span className="text-sm text-gray-600">Klienter</span>
-                </div>
               </div>
 
               {/* Services Overview Cards */}
@@ -85,7 +80,6 @@ const Index = () => {
             {/* Content Section */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg max-w-none">
-                <h3 className="text-3xl font-semibold mb-6 text-[#203d37]">Anna Kalinowska</h3>
                 <p className="mb-6">
                   Mitt navn er Anna Kalinowska, og jeg tilbyr veiledningssamtaler og healing for deg som ønsker støtte i livet, enten du står overfor utfordringer på jobb, i personlige forhold, eller rett og slett søker mer balanse og energi i hverdagen.
                 </p>
