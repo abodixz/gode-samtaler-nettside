@@ -2,7 +2,7 @@
 
 import React from "react"
 import { Phone, Mail, MapPin, Building } from "lucide-react"
-import { Facebook, Instagram } from "lucide-react"
+import { Facebook} from "lucide-react"
 
 export default function Contact() {
   return (

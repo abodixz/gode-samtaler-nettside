@@ -10,6 +10,7 @@ import {
   Target,
   Compass
 } from "lucide-react";
+import Image from 'next/image';
 
 const Index = () => {
   return (
@@ -41,7 +42,12 @@ const Index = () => {
                 {/* Main image */}
                 <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-xl">
                   <div className="w-full h-full bg-gradient-to-br from-slate-300 to-slate-200 flex items-center justify-center">
-                    <img className='w-full' src={"/anne-bilde.jpeg"} />
+                  <Image
+                      src="/anne-bilde.jpeg"
+                      alt="Bilde av Anna Kalinowska"
+                      layout="fill"
+                      objectFit="cover"
+                    />
 
                   </div>
                 </div>

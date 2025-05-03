@@ -26,6 +26,7 @@ export default function Services() {
                 alt="Hjemmekontor samtale"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
+                priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-4 left-6 flex items-center">
@@ -108,6 +109,7 @@ export default function Services() {
                 alt="Online samtale"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
+                priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-4 left-6 flex items-center">
@@ -149,6 +151,7 @@ export default function Services() {
                 alt="Healing session"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
+                priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-4 left-6 flex items-center">
