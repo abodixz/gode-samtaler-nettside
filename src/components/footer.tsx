@@ -27,7 +27,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-3">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61571456643527"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#6d816a] transition-colors duration-300"
@@ -36,16 +36,7 @@ export default function Footer() {
                 <Facebook size={18} />
               </a>
               <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#6d816a] transition-colors duration-300"
-                aria-label="Instagram"
-              >
-                <Instagram size={18} />
-              </a>
-              <a
-                href="mailto:Annagodesamtaler@gmail.com"
+                href="mailto:annagodesamtaler@gmail.com"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#6d816a] transition-colors duration-300"
                 aria-label="Email"
               >

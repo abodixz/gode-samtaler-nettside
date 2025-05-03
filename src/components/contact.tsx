@@ -43,7 +43,7 @@ export default function Contact() {
                   <Mail className="h-5 w-5 mr-2" />
                   <div>
                     <p className="font-medium text-white/80 text-xs md:text-sm">E-post</p>
-                    <p className="text-base md:text-lg">Annagodesamtaler@gmail.com</p>
+                    <p className="text-base md:text-lg">annagodesamtaler@gmail.com</p>
                   </div>
                 </div>
 
@@ -66,21 +66,14 @@ export default function Contact() {
 
               <div className="mt-8">
                 <div className="p-3 bg-white/10 rounded-lg hover:shadow-lg hover:scale-105 transition-transform duration-200 text-center">
-                  <p className="text-white/80 mb-1 text-xs md:text-sm">Følg oss på sosiale medier</p>
+                  <p className="text-white/80 mb-1 text-xs md:text-sm">Følg meg på sosiale medier</p>
                   <div className="flex space-x-3 justify-center">
                     <a
-                      href="#"
+                      href="https://www.facebook.com/profile.php?id=61571456643527"
                       className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center transition-transform duration-200 hover:scale-110"
                       aria-label="Facebook"
                     >
                       <Facebook size={18} />
-                    </a>
-                    <a
-                      href="#"
-                      className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center transition-transform duration-200 hover:scale-110"
-                      aria-label="Instagram"
-                    >
-                      <Instagram size={18} />
                     </a>
                   </div>
                 </div>

@@ -81,7 +81,7 @@ const Index = () => {
             <div className="lg:w-3/5">
               <div className="prose prose-lg max-w-none">
                 <p className="mb-6">
-                  Mitt navn er Anna Kalinowska, og jeg tilbyr veiledningssamtaler og healing for deg som ønsker støtte i livet, enten du står overfor utfordringer på jobb, i personlige forhold, eller rett og slett søker mer balanse og energi i hverdagen.
+                  Mitt navn er Anna Kalinowska, Mitt mål er å gi deg muligheten til å bli sett og hørt, slik at du kan oppnå klarhet og ro i dine egne tanker. Min tilnærming er å møte deg der du er – uten forhåndsdefinerte svar – men med et objektivt og lyttende blikk på din historie.
                 </p>
 
                 <div className="bg-white rounded-xl shadow-sm p-6 border border-slate-100 mb-8">
@@ -90,7 +90,7 @@ const Index = () => {
                     Min Bakgrunn
                   </h4>
                   <p className="mb-4">
-                    Min bakgrunn er tverrfaglig og gir meg et grunnlag for å hjelpe deg. Jeg har en mastergrad i ledelse og organisasjonspsykologi fra Warszawa (Polen), og en fagskoleutdanning i Folkehelse og Livsmestring fra Kristiania.
+                  I tillegg til samtalene som fokuserer på hverdagslige utfordringer, tilbyr jeg også samtaler med fokus på den åndelige dimensjonen av livet og healing gjennom chakra balansering. Jeg anerkjenner og respekterer den spirituelle siden av livet, og integrerer elementer som healing, jording og mindfulness i mitt eget liv. Jeg ønsker å hjelpe deg med å forstå hvordan dine tanker og følelser påvirker både din indre verden og den ytre virkeligheten.
                   </p>
                 </div>
 
@@ -102,10 +102,9 @@ const Index = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                   {[
                     "Interpersonal Communication",
-                    "Positiv psykologi gjennom Paradigm Academy",
+                    "Fagskole",
                     "Motiverende intervju med arbeidspsykolog",
-                    "\"ADHD fungering i arbeidslivet\"",
-                    "Coaching og relasjonsledelse fra AOF Skole",
+                    "Mastergrad",
                     "\"Kraina Snow\" via HorseSense",
                     "Healing og klarsyn kurs"
                   ].map((course, i) => (
@@ -118,6 +117,10 @@ const Index = () => {
 
                 <p className="mb-8">
                   Med min brede faglige bakgrunn og erfaring som veileder fra både NAV og tiltaksbransjen, har jeg jobbet med mennesker som trenger støtte innen karriereutvikling, personlig veiledning og hverdagskompetanse.
+                </p>
+
+                <p className='mb-8'>
+                  Veiledningen hos meg er ikke ment som erstatning for behandling hos psykolog eller terapeut, men kan være et verdifullt første steg på veien mot å søke og motta profesjonell hjelp dersom det er nødvendig eller ønskelig.
                 </p>
 
                 <h4 className="flex items-center text-xl font-medium mb-4 text-[#203d37]">
