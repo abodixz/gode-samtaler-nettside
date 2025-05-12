@@ -90,7 +90,7 @@ const Index = () => {
                   Mitt navn er Anna Kalinowska, Mitt mål er å gi deg muligheten til å bli sett og hørt, slik at du kan oppnå klarhet og ro i dine egne tanker. Min tilnærming er å møte deg der du er – uten forhåndsdefinerte svar – men med et objektivt og lyttende blikk på din historie.
                 </p>
 
-                <div className="">
+                <div>
                   <p className="mb-4">
                   I tillegg til samtalene som fokuserer på hverdagslige utfordringer, tilbyr jeg også samtaler med fokus på den åndelige dimensjonen av livet og healing gjennom chakra balansering. Jeg anerkjenner og respekterer den spirituelle siden av livet, og integrerer elementer som healing, jording og mindfulness i mitt eget liv. Jeg ønsker å hjelpe deg med å forstå hvordan dine tanker og følelser påvirker både din indre verden og den ytre virkeligheten.
                   </p>
