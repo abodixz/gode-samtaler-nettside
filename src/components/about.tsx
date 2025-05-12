@@ -90,11 +90,7 @@ const Index = () => {
                   Mitt navn er Anna Kalinowska, Mitt mål er å gi deg muligheten til å bli sett og hørt, slik at du kan oppnå klarhet og ro i dine egne tanker. Min tilnærming er å møte deg der du er – uten forhåndsdefinerte svar – men med et objektivt og lyttende blikk på din historie.
                 </p>
 
-                <div className="bg-white rounded-xl shadow-sm p-6 border border-slate-100 mb-8">
-                  <h4 className="flex items-center text-xl font-medium mb-4 text-[#203d37]">
-                    <GraduationCap className="mr-2 h-6 w-6" />
-                    Min Bakgrunn
-                  </h4>
+                <div className="">
                   <p className="mb-4">
                   I tillegg til samtalene som fokuserer på hverdagslige utfordringer, tilbyr jeg også samtaler med fokus på den åndelige dimensjonen av livet og healing gjennom chakra balansering. Jeg anerkjenner og respekterer den spirituelle siden av livet, og integrerer elementer som healing, jording og mindfulness i mitt eget liv. Jeg ønsker å hjelpe deg med å forstå hvordan dine tanker og følelser påvirker både din indre verden og den ytre virkeligheten.
                   </p>
@@ -107,10 +103,10 @@ const Index = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                   {[
+                    "Mastergrad i Ledelse og organisasjonspsykologi",
+                    "Fagskole Folkehelse og Livsmestring",
                     "Interpersonal Communication",
-                    "Fagskole",
                     "Motiverende intervju med arbeidspsykolog",
-                    "Mastergrad",
                     "\"Kraina Snow\" via HorseSense",
                     "Healing og klarsyn kurs"
                   ].map((course, i) => (
