@@ -5,7 +5,6 @@ import {
   MessageSquareHeart,
   HandHeart,
   FlowerIcon,
-  GraduationCap,
   CheckCircle,
   Target,
   Compass
